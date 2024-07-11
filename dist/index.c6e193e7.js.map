@@ -1,0 +1,1 @@
+{"mappings":"AAAA,uBAAuB;AACvB,0BAA0B;AAE1B,qBAAqB;AACrB,gBAAgB;AAChB,QAAQ,GAAG,CAAC","sources":["src/js/scripts.js"],"sourcesContent":["// Load jQuery from NPM\n// import $ from 'jquery';\n\n// window.jQuery = $;\n// window.$ = $;\nconsole.log('hello world')\n"],"names":[],"version":3,"file":"index.c6e193e7.js.map","sourceRoot":"/__parcel_source_root/"}

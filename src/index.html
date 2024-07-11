@@ -1,0 +1,298 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./scss/styles.scss">
+    <script type="module" src="./js/scripts.js"></script>
+</head>
+
+<body>
+    <section id="header">
+        <div class="row">
+            <div class="col-5 left-side">
+                <button type="button" class="btn brown-btn mr-1"> الملف التسويقي للخبر </button>
+                <button type="button" class="btn dark-btn"> الملف التسويقي للرياض</button>
+            </div>
+            <div class="col-2">
+                <img src="./images/logo/logo.svg" alt="">
+            </div>
+            <div class="col-5 right-side">
+                <select class="selectpicker lang mr-1" data-width="100%">
+                    <option value="">EN</option>
+                    <option value="1">AR</option>
+                    <option value="2">FR</option>
+                </select>
+
+                <select class="selectpicker city" data-width="100%">
+                    <option value="">اختر المدينة</option>
+                    <option value="1">الرياض</option>
+                    <option value="2">مصر</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <section id="first-sec">
+        <div class="bg-brown">
+            <img class="lines w-full" src="./images/img/Group 1000001707.svg" alt="lines">
+            <h1 class="color-brown text-center">
+                مسكنك اليوم استثمارك للغد
+            </h1>
+            <h3 class="color-dark text-center">
+                تملك الآن في مدينتي الرياض والخبر
+            </h3>
+
+            <div class="row img-section1 w-full">
+                <div class="col-4 left-side">
+                    <div class="float-img">
+                        <img class="brown-cir" src="./images/img/Group 1000001704.svg" alt="lines">
+                        <img class="dark-cir" src="./images/img/Ellipse 2215.svg" alt="lines">
+                    </div>
+                    <img class="mb-1 w-full" src="./images/img/Rectangle 9636.png" alt="lines">
+                    <img class="w-full" src="./images/img/Rectangle 9637.png" alt="lines">
+                </div>
+                <div class="col-4 col-lg-3 col-md-4">
+                    <img class="w-full" src="./images/img/Rectangle 9633.png" alt="lines">
+                </div>
+                <div class="col-4 right-side">
+                    <img class="mb-1 w-full" src="./images/img/Rectangle 9634.png" alt="lines">
+                    <div class="float-img">
+                        <img class="dark-cir" src="./images/img/Group 1000001703.svg" alt="lines">
+                    </div>
+                    <img class="w-full" src="./images/img/Rectangle 9635.png" alt="lines">
+                    <div class="float-img">
+                        <img class="brown-cir" src="./images/img/Ellipse 2218.svg" alt="lines">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="form-sec">
+        <div class="form-con w-full">
+            <div class="container">
+                <div class="row form-info">
+                    <div class="form-border">
+                        <h2 class="color-brown text-center mb-5r">سجل اهتمامك</h2>
+                        <!-- Form -->
+                        <form class="row">
+                            <div class="mb-2r col-12 col-md-12">
+                                <label class="form-label" for="profilefname">الاسم كاملا</label>
+                                <input type="text" id="profilefname" class="form-control" placeholder="ادخل اسمك كاملا" required>
+                            </div>
+                            <div class="mb-2r col-12 col-md-6">
+                                <label class="form-label" for="profilephone">رقم التواصل</label>
+                                <input type="text" id="profilephone" class="form-control" placeholder="ادخل رقم التواصل" required>
+                            </div>
+                            <div class="mb-2r col-12 col-md-6">
+                                <label class="form-label" for="profileEmail"> البريد الالكتروني</label>
+                                <input type="email" id="profileEmail" class="form-control" placeholder="ادخل بريدك الالكتروني" required>
+                            </div>
+                            <div class="mb-2r col-12 col-md-6">
+                                <label class="form-label">احياء مدينة الرياض</label>
+                                <select class="selectpicker" data-width="100%">
+                                    <option value="">اختر الحي</option>
+                                    <option value="1">Gujarat</option>
+                                    <option value="2">Rajasthan</option>
+                                    <option value="3">Maharashtra</option>
+                                </select>
+                            </div>
+                            <div class="mb-2r col-12 col-md-6">
+                                <label class="form-label">نوع السكن</label>
+                                <select class="selectpicker" data-width="100%">
+                                    <option value="">اختر نوع السكن</option>
+                                    <option value="1">India</option>
+                                    <option value="2">UK</option>
+                                    <option value="3">USA</option>
+                                </select>
+                            </div>
+                            <div class="mb-2r col-12 col-md-6">
+                                <label class="form-label">من أين وصلت للصفحة</label>
+                                <select class="selectpicker" data-width="100%">
+                                    <option value="">اختر المنصة</option>
+                                    <option value="1">India</option>
+                                    <option value="2">UK</option>
+                                    <option value="3">USA</option>
+                                </select>
+                            </div>
+                            <div class="mb-2r col-12 col-md-6">
+                                <label class="form-label" for="other">منصات اخرى</label>
+                                <input type="text" id="other" class="form-control" placeholder="ادخل المنصة" required>
+                            </div>
+                            <div class="col-12 col-md-12">
+                                <label class="form-label" for="other">تفاصيل اخرى</label>
+                                <input type="text" id="other" class="form-control" placeholder="تفاصيل اخرى" required>
+                            </div>
+                            <div class="col-12 submit-btn">
+                                <button class="btn dark-btn" type="submit">ارسال</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="image-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="./images/img/1.png" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="./images/img/2.png" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="./images/img/3.png" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 center-imgs">
+                    <img src="./images/img/4.png" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 center-img">
+                    <img src="./images/img/5.png" alt="">
+                    <div class="glass_morphism"></div>
+                    <div class="logo-cont">
+                        <img src="./images/img/center.png" class="logo-img" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 center-imgs">
+                    <img src="./images/img/6.png" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="./images/img/7.png" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="./images/img/8.png" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="./images/img/9.png" alt="">
+                </div>
+            </div>
+            <div class="btn-more">
+                <button class="btn brown-btn" type="submit">المزيد</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="sales-sec">
+        <div class="container">
+            <div>
+                <h2 class="text-center mb-3-5r">فريق المبيعات</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12 user-card">
+                    <div class="user-info">
+                        <img src="./images/img/user.png" class="mb-1 mt-2-3r">
+                        <h4 class="mb-2r">عبدالكريم</h4>
+                        <div class="user-contact">
+                            <button class="btn purple-btn">محادثة مباشرة
+                                <img src="./images/icons/message-text.svg">
+                                </button>
+                            <button class="btn brown-btn">اتصال مباشر
+                                <img src="./images/icons/call.svg">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 user-card">
+                    <div class="user-info">
+                        <img src="./images/img/user.png" class="mb-1 mt-2-3r">
+                        <h4 class="mb-2r">ماجد</h4>
+                        <div class="user-contact">
+                            <button class="btn purple-btn">محادثة مباشرة
+                                <img src="./images/icons/message-text.svg">
+                                </button>
+                            <button class="btn brown-btn">اتصال مباشر
+                                <img src="./images/icons/call.svg">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 user-card">
+                    <div class="user-info">
+                        <img src="./images/img/user.png" class="mb-1 mt-2-3r">
+                        <h4 class="mb-2r">صالح</h4>
+                        <div class="user-contact">
+                            <button class="btn purple-btn">محادثة مباشرة
+                                <img src="./images/icons/message-text.svg">
+                                </button>
+                            <button class="btn brown-btn">اتصال مباشر
+                                <img src="./images/icons/call.svg">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 user-card">
+                    <div class="user-info">
+                        <img src="./images/img/user.png" class="mb-1 mt-2-3r">
+                        <h4 class="mb-2r">سامي</h4>
+                        <div class="user-contact">
+                            <button class="btn purple-btn">محادثة مباشرة
+                                <img src="./images/icons/message-text.svg">
+                                </button>
+                            <button class="btn brown-btn">اتصال مباشر
+                                <img src="./images/icons/call.svg">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="container footer-img">
+                <img src="./images/footer/Asset 1 2.png" class="mb-2r">
+                <div class="footer-txt mb-2r">
+                    <h4>
+                        تُعد شركة آل سعيدان للعقارات واحدة من أعرق الشركات العقاريّة في المملكة العربيّة السعوديّة والعالم العربيّ على حدٍ سواء، فكانت انطلاقتها إيماناً بالرغبة الجادة لشركة آل سعيدان للعقارات بدعم الانطلاقة التنموية التي شهدتها المملكة، 
+                    </h4>
+                </div>
+                <div class="row content-info">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <p>
+                            <a href="https://www.alsaedan.com">https://www.alsaedan.com</a>
+                        </p>
+                        <img src="./images/footer/globe-alt.svg">
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <p>
+                            <a href="mailto:sm@alsaedan.com">sm@alsaedan.com</a>
+                        </p>
+                        <img src="./images/footer/sms.svg">
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-12">
+                        <p>
+                            <a href="tel:920004365">920004365</a>
+                        </p>
+                        <img src="./images/footer/call.svg">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <p>
+                            طريق الملك فهد الفرعي مدينة الرياض
+                        </p>
+                        <img src="./images/footer/location.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-social">
+            <div class="col-6 copy-right">
+                <p>كل الحقوق محفوظة 2024 &copy; لشركة ال سعيدان للعقارات </p>
+            </div>
+            <div class="col-6 social">
+                <div class="grid grid-flow-col gap-4 mt-2">
+                    <a><img src="./images/footer/Group 1000001116.svg" alt="twitter"></a>
+                    <a><img src="./images/footer/Group 1000001115.svg" alt="snapchat"></a>
+                    <a href="https://www.facebook.com" target="_blank"><img src="./images/footer/Group 1000001330.svg" alt="facebook"></a>
+                    <a><img src="./images/footer/Group 1000001111 (1).svg" alt="instagram"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>

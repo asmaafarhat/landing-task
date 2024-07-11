@@ -1,0 +1,160 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .footer {
+    .part-3 {
+      padding: 3rem 2rem 3rem 4rem !important;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .third_section {
+    .event-program {
+      padding: 0 2rem 5rem 5rem !important;
+    }
+  }
+
+  .fifth_section {
+    .about-riyadh {
+      padding: 1rem 0 1rem 5rem !important;
+
+      p {
+        letter-spacing: -1.5px !important;
+      }
+    }
+  }
+
+  .footer {
+    .part-2 {
+      .companies {
+        margin-left: 0;
+        padding: 0;
+      }
+    }
+
+    .part-3 {
+      padding: 3rem 0 3rem 3rem !important;
+    }
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  body {
+    color: var(--main);
+    overflow-x: hidden;
+
+    h1 {
+      font-size: 57px !important;
+      font-weight: bold;
+    }
+
+    h2 {
+      font-size: 27px;
+      font-weight: 400;
+    }
+
+    p {
+      font-size: 27px;
+      font-weight: 300;
+    }
+
+    h5 {
+      font-size: 19px;
+      font-weight: 200;
+    }
+  }
+
+  .first_section {
+    div.cover {
+      background-image: url("../images/cover/mobile-cover.png") !important;
+
+      .title {
+        margin-top: 15rem;
+      }
+    }
+  }
+
+  .fifth_section {
+    .about-riyadh {
+      padding: 2rem 2rem 2rem 3rem !important;
+
+      &:nth-child(3) {
+        div:nth-child(1) {
+          order: 2;
+        }
+      }
+    }
+  }
+
+  .footer {
+    .part-1 {
+      display: none;
+    }
+
+    .part-2 {
+      display: none;
+    }
+
+    .part-3 {
+      display: none;
+    }
+
+    .part-4 {
+      display: none;
+    }
+
+    .part-5 {
+      display: none;
+    }
+
+    .part-6 {
+      display: block !important;
+    }
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body {
+    h1 {
+      font-size: 80px !important;
+      font-weight: bold;
+    }
+  }
+
+  .fifth_section {
+    .about-riyadh {
+      padding: 2rem 2rem 2rem 4.5rem !important;
+
+      &:nth-child(3) {
+        div:nth-child(1) {
+          order: 2;
+        }
+      }
+    }
+  }
+
+  .footer {
+    .part-1 {
+      display: none;
+    }
+
+    .part-2 {
+      margin-left: 0 !important;
+      width: 50% !important;
+    }
+
+    .part-3 {
+      padding: 2rem !important;
+      width: 50% !important;
+    }
+
+    .part-4 {
+      display: none;
+    }
+
+    .part-5 {
+      display: none;
+    }
+  }
+}
